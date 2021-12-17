@@ -8,9 +8,9 @@
 const { array, string } = require('ecv-dev-vgimonnet-tp2-exo1');
 
 console.log(string.stringToSlug('Le seigneur des anneaux c'est mieux que Star Wars'));
-console.log(sortAscArray(['Le', 'seigneur', 'des', 'anneaux', 'c\'est', 'mieux', 'que', 'Star', 'Wars']));
-console.log(upperFirstLetterWord('Le seigneur des anneaux c'est mieux que Star Wars'));
-console.log(getRandomValue(['Le', 'seigneur', 'des', 'anneaux', 'c\'est', 'mieux', 'que', 'Star', 'Wars']));
+console.log(array.sortAscArray(['Le', 'seigneur', 'des', 'anneaux', 'c\'est', 'mieux', 'que', 'Star', 'Wars']));
+console.log(string.upperFirstLetterWord('Le seigneur des anneaux c'est mieux que Star Wars'));
+console.log(array.getRandomValue(['Le', 'seigneur', 'des', 'anneaux', 'c\'est', 'mieux', 'que', 'Star', 'Wars']));
 ```
 
 ## npm
