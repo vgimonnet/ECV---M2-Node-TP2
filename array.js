@@ -1,6 +1,3 @@
-const { getRandomValue, sortAscArray } = require('./index.js');
+exports.sortAscArray = (array) => array.sort();
 
-export default {
-  getRandomValue,
-  sortAscArray
-}
+exports.getRandomValue = (array) => array[Math.floor(Math.random() * array.length)];
